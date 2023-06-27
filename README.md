@@ -4,7 +4,7 @@ Affected Component: All versions that are below 2.7.4
 
 Step to reproduce : Detection and Exploitation: 1.Go to Add page
 
-2.Inject payload : "' test <img src="" onerror="alert(1)"> to Title and save draft it
+2.Inject payload : "' test /<img src=/"" onerror="alert(1)"> to Title and save draft it
 
 Go to list post savedraft include a malicious payload. Then script is execute  
 
